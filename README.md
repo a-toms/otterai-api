@@ -54,13 +54,13 @@ otter.get_speeches()
 Get speech by id
 
 ```python
-otter.get_speech(SPEECH_ID)
+otter.get_speech(OT_ID)
 ```
 
 Query a speech
 
 ```python
-otter.query_speech(QUERY, SPEECH_ID)
+otter.query_speech(QUERY, OT_ID)
 ```
 
 Upload a speech
@@ -74,7 +74,7 @@ otter.upload_speech(FILE_NAME)
 Move a speech to trash
 
 ```python
-otter.move_to_trash_bin(SPEECH_ID)
+otter.move_to_trash_bin(OT_ID)
 ```
 
 #### TODO
